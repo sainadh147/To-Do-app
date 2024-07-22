@@ -1,0 +1,31 @@
+.task-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    justify-content: space-between; /* Distribute space between items */
+    margin-bottom: 20px;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+.controls input, .controls select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+}
+
+.control-group label {
+    margin-right: 5px;
+}
